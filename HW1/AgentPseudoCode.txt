@@ -1,0 +1,24 @@
+Agent2:
+	if (pair() or same_suit()) then
+		return call
+	else
+		return fold
+	endif
+;
+
+Agent3:
+	if (high_card_value() >= 11) then
+		return call
+	else
+		return fold
+	endif
+;
+
+Agent4:
+	if (pair() or high_card_value() >= 11) then
+		return call
+	else
+		return fold
+	endif
+;
+

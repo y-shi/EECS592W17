@@ -1,0 +1,17 @@
+?- retract(focusOn(michigan, football)).
+true.
+
+?- assert(focusOn(michigan, engr)).
+true.
+
+?- goodAt(X, football).
+X = osu ;
+X = alabama ;
+X = someUniversity ;
+X = michigan ;
+false.
+
+?- goodAt(X, engr).
+X = michigan ;
+X = mit ;
+false.

@@ -1,0 +1,11 @@
+?- goodAt(X, football).
+X = michigan ;
+X = osu ;
+X = alabama ;
+X = someUniversity ;
+X = michigan ;
+X = someUniversity ;
+ERROR: Out of local stack
+?- goodAt(X, engr).
+X = mit ;
+false.

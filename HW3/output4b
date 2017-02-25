@@ -1,0 +1,12 @@
+?- goodAt(X, football).
+X = michigan ;
+X = osu ;
+X = alabama ;
+X = someUniversity ;
+X = someUniversity ;
+X = michigan ;
+false.
+
+?- goodAt(X, engr).
+X = mit ;
+false.
