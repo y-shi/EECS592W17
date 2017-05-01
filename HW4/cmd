@@ -1,0 +1,8 @@
+(load "loader.lisp")
+(in-package :gp)
+(load-gp)
+(load-domains "bookshelf.pddl")
+(dribble "bookshelf.out")
+(plan 'bookshelf-organize)
+(dribble)
+

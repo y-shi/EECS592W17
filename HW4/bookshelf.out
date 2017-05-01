@@ -1,0 +1,20 @@
+dribbling to file "bookshelf.out"
+ 
+NIL
+GP(6): (plan 'bookshelf-organize)
+Operators are ground at graph expansion time
+Dynamic variable ordering is enabled
+Least preconditional action ordering is enabled
+
+Levels 1 2 3 4 5 6 7 8
+(((READ DOMAINS::MRT)
+  (DOMAINS::MOVE DOMAINS::MRT DOMAINS::P DOMAINS::SH1))
+ ((READ DOMAINS::P) (DOMAINS::MOVE DOMAINS::P DOMAINS::B DOMAINS::MRT))
+ ((READ DOMAINS::B) (DOMAINS::MOVE DOMAINS::B DOMAINS::RN DOMAINS::P))
+ ((READ DOMAINS::RN)
+  (DOMAINS::MOVE DOMAINS::RN DOMAINS::SH0 DOMAINS::SH2))
+ ((DOMAINS::MOVE DOMAINS::B DOMAINS::P DOMAINS::SH0))
+ ((DOMAINS::MOVE DOMAINS::P DOMAINS::MRT DOMAINS::B))
+ ((DOMAINS::MOVE DOMAINS::MRT DOMAINS::SH1 DOMAINS::P))
+ ((DOMAINS::MOVE DOMAINS::RN DOMAINS::SH2 DOMAINS::MRT)))
+GP(7): (dribble)
